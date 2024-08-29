@@ -1,0 +1,190 @@
+/* =================================================================== */
+/* nav */
+/* =================================================================== */
+nav {
+    height: 80px;
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+nav #navwrap {
+    display: flex;
+    align-items: center;
+}
+
+/* 固定表示のスタイル */
+nav.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* ロゴのスタイル */
+nav div.nav-logo {}
+
+nav div.nav-logo img {
+    width: 200px;
+    padding-left: 15px;
+}
+
+/* メニューのスタイル */
+nav div.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+nav div.nav-menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav div.nav-menu ul li {
+    padding: 0 13px;
+    margin: 0 0 -5px 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+nav div.nav-menu ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav div.nav-menu ul li a:hover {
+    border-bottom: 4px solid orange;
+    transition: all 0.1s;
+}
+/* =================================================================== */
+/* footer */
+/* =================================================================== */
+footer {
+    margin: 30px 0 0 0;
+    padding: 30px 0 30px 0;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+footer #footer-wrap {
+    margin: 0 auto;
+}
+
+footer #footer-wrap .footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #footer-wrap .footer-icon a {}
+
+footer #footer-wrap .footer-icon a img {
+    margin: 0 18px;
+}
+
+footer #footer-wrap .footer-icon a img#footer-logo {
+    width: 300px;
+}
+
+footer #footer-wrap .license {}
+
+footer #footer-wrap .license p {
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+/* =================================================================== */
+/* main */
+/* =================================================================== */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main #wrap {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+main #wrap h1{
+    font-size: 3rem;
+    /* padding-top: 40px; */
+    margin: 0 0 5px 10px;
+    font-size: 3rem;
+    text-align: left;
+}
+
+
+main #wrap .heading, .tail {
+    margin: 30px auto 30px auto; /* 上部と下部の余白を狭める */
+    width: 100%;
+}
+main #wrap .heading .box, .tail .box {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* 中央揃えにする */
+}
+
+.box-contact {
+    background-color: #ff85f5;
+    width: 100%; /* 緑色の線がコンテンツの幅に応じて中央に表示されるように幅を100%に設定 */
+    max-width: 900px; /* 緑色の線の最大幅を設定 */
+    height: 40px;
+}
+.blog-kuzira{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    margin: 20px 10px;
+} 
+
+.form{
+    text-align: center;
+}
+
+.name{}
+.name p{
+    font-size: 1.2rem;
+}
+.name input{
+    width: 400px;
+    height: 20px;
+}
+.mail{
+    margin: 12px 0 0 0;
+}
+.mail p{
+    font-size: 1.2rem;
+}
+.mail input{
+    width: 500px;
+    height: 20px;
+}
+.title{
+    margin: 12px 0 0 0;
+}
+.title p{
+    font-size: 1.2rem;
+}
+.title input{
+    width: 500px;
+    height: 20px;
+}
+.contents{
+    margin: 12px 0 12px 0;
+}
+.contents p{
+    font-size: 1.2rem;
+}
+.contents input{
+    width: 500px;
+    height: 120px;
+}
